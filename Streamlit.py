@@ -6,12 +6,11 @@
 
 import pandas as pd 
 import numpy as np 
-import pickle 
 import streamlit as st 
 from PIL import Image 
 from xgboost.sklearn import XGBClassifier
 #Colocamos el lugar de donde extraer el csv
-data_location= "C:/Users/LX569DW/Downloads/TP Digital House/england-premier-league-players-2018-to-2019-stats.csv"
+data_location= "https://raw.githubusercontent.com/mwolinsky/Ranking_predictor/main/england-premier-league-players-2018-to-2019-stats.csv"
 
 #Leemos el csv con lo jugadores como indice
 df= pd.read_csv(data_location)
@@ -86,6 +85,30 @@ def main():
 if __name__=='__main__': 
     main() 
     
+
+
+# In[2]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
